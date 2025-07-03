@@ -1,0 +1,20 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/Day_one/IndexPage",
+    "pages/Day_one/MTExample",
+    "pages/Day_one/RowAndColumn",
+    "pages/Day_one/BDExample",
+    "pages/Day_one/StackExample",
+    "pages/Day_one/FlexExample",
+    "pages/Day_one/GridExample",
+    "pages/Day_one/RCExample",
+    "pages/Day_one/ScrollExample",
+    "pages/Dat_two/localExample",
+    "pages/Dat_two/EventListener",
+    "pages/Dat_two/TraceAndObserve",
+    "pages/Day_three/StylesExample",
+    "pages/Day_three/ifExample",
+    "pages/Day_three/ForEachExample"
+  ]
+}
