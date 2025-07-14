@@ -31,5 +31,6 @@ E:/projects/cpp/Base_class/cmake-build-debug/CMakeFiles/OperatorOverloading_two.
 E:/projects/cpp/Base_class/cmake-build-debug/CMakeFiles/OperatorOverloading_three.dir
 E:/projects/cpp/Base_class/cmake-build-debug/CMakeFiles/OperatorOverloading_four.dir
 E:/projects/cpp/Base_class/cmake-build-debug/CMakeFiles/OperatorOverloading_five.dir
+E:/projects/cpp/Base_class/cmake-build-debug/CMakeFiles/fstream_one.dir
 E:/projects/cpp/Base_class/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/projects/cpp/Base_class/cmake-build-debug/CMakeFiles/rebuild_cache.dir

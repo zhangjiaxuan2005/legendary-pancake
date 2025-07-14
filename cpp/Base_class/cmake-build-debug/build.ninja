@@ -1129,6 +1129,39 @@ build OperatorOverloading_five.exe: CXX_EXECUTABLE_LINKER__OperatorOverloading_f
   TARGET_IMPLIB = libOperatorOverloading_five.dll.a
   TARGET_PDB = OperatorOverloading_five.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target fstream_one
+
+
+#############################################
+# Order-only phony target for fstream_one
+
+build cmake_object_order_depends_target_fstream_one: phony || .
+
+build CMakeFiles/fstream_one.dir/Day_tan/fstream_one.cpp.obj: CXX_COMPILER__fstream_one_unscanned_Debug E$:/projects/cpp/Base_class/Day_tan/fstream_one.cpp || cmake_object_order_depends_target_fstream_one
+  DEP_FILE = CMakeFiles\fstream_one.dir\Day_tan\fstream_one.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\fstream_one.dir
+  OBJECT_FILE_DIR = CMakeFiles\fstream_one.dir\Day_tan
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target fstream_one
+
+
+#############################################
+# Link the executable fstream_one.exe
+
+build fstream_one.exe: CXX_EXECUTABLE_LINKER__fstream_one_Debug CMakeFiles/fstream_one.dir/Day_tan/fstream_one.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\fstream_one.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = fstream_one.exe
+  TARGET_IMPLIB = libfstream_one.dll.a
+  TARGET_PDB = fstream_one.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1197,6 +1230,8 @@ build controller_two: phony controller_two.exe
 
 build data_model: phony data_model.exe
 
+build fstream_one: phony fstream_one.exe
+
 build func_one: phony func_one.exe
 
 build func_two: phony func_two.exe
@@ -1229,7 +1264,7 @@ build struct_two: phony struct_two.exe
 #############################################
 # Folder: E:/projects/cpp/Base_class/cmake-build-debug
 
-build all: phony Hello_world.exe constant.exe data_model.exe cin.exe operator.exe controller_one.exe controller_two.exe controller_three.exe controller_four.exe controller_five.exe array_one.exe array_two.exe pointer_one.exe pointer_two.exe pointer_three.exe pointer_four.exe pointer_five.exe pointer_array.exe struct_one.exe struct_two.exe struct_three.exe func_one.exe func_two.exe class_one.exe class_two.exe class_three.exe class_four.exe class_five.exe OperatorOverloading_one.exe OperatorOverloading_two.exe OperatorOverloading_three.exe OperatorOverloading_four.exe OperatorOverloading_five.exe
+build all: phony Hello_world.exe constant.exe data_model.exe cin.exe operator.exe controller_one.exe controller_two.exe controller_three.exe controller_four.exe controller_five.exe array_one.exe array_two.exe pointer_one.exe pointer_two.exe pointer_three.exe pointer_four.exe pointer_five.exe pointer_array.exe struct_one.exe struct_two.exe struct_three.exe func_one.exe func_two.exe class_one.exe class_two.exe class_three.exe class_four.exe class_five.exe OperatorOverloading_one.exe OperatorOverloading_two.exe OperatorOverloading_three.exe OperatorOverloading_four.exe OperatorOverloading_five.exe fstream_one.exe
 
 # =============================================================================
 # Built-in targets

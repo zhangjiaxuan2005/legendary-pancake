@@ -1,5 +1,5 @@
 # ninja log v6
-16	377	7741937576864617	build.ninja	665dd37eaa28a899
+16	377	7742046184709813	build.ninja	665dd37eaa28a899
 394	470	7724599810682356	func_two.exe	4f6e8a311303874f
 5	679	7720204863016555	CMakeFiles/constant.dir/Day_one/constant.cpp.obj	ce7b39f7386b6815
 372	445	7724472728474553	pointer_array.exe	79fdaa83cf638e3f
@@ -51,3 +51,15 @@
 740	869	7741931423772292	OperatorOverloading_four.exe	36fddaabaaba7bd
 4	714	7741943354568644	CMakeFiles/class_five.dir/Day_eight/class_five.cpp.obj	536f905191f891f5
 715	861	7741943361669496	class_five.exe	46078d7abcac999a
+4	742	7742047235451655	CMakeFiles/fstream_one.dir/Day_tan/fstream_one.cpp.obj	c062803bf5e9e6ec
+742	879	7742047242842507	fstream_one.exe	443b47acff1fbd0f
+10	722	7742052300555404	CMakeFiles/fstream_one.dir/Day_tan/fstream_one.cpp.obj	c062803bf5e9e6ec
+722	855	7742052307677899	fstream_one.exe	443b47acff1fbd0f
+12	748	7742053552713699	CMakeFiles/fstream_one.dir/Day_tan/fstream_one.cpp.obj	c062803bf5e9e6ec
+749	872	7742053560093795	fstream_one.exe	443b47acff1fbd0f
+8	658	7742054239770484	CMakeFiles/fstream_one.dir/Day_tan/fstream_one.cpp.obj	c062803bf5e9e6ec
+658	800	7742054246267391	fstream_one.exe	443b47acff1fbd0f
+8	809	7742054970978712	CMakeFiles/fstream_one.dir/Day_tan/fstream_one.cpp.obj	c062803bf5e9e6ec
+810	948	7742054978996661	fstream_one.exe	443b47acff1fbd0f
+6	760	7742056353934470	CMakeFiles/fstream_one.dir/Day_tan/fstream_one.cpp.obj	c062803bf5e9e6ec
+761	903	7742056361481118	fstream_one.exe	443b47acff1fbd0f
