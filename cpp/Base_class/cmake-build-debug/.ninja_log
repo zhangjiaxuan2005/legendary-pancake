@@ -1,5 +1,5 @@
 # ninja log v6
-16	377	7724611066413661	build.ninja	665dd37eaa28a899
+16	377	7741937576864617	build.ninja	665dd37eaa28a899
 394	470	7724599810682356	func_two.exe	4f6e8a311303874f
 5	679	7720204863016555	CMakeFiles/constant.dir/Day_one/constant.cpp.obj	ce7b39f7386b6815
 372	445	7724472728474553	pointer_array.exe	79fdaa83cf638e3f
@@ -22,13 +22,17 @@
 5	722	7720343227809302	CMakeFiles/controller_three.dir/Day_three/controller_three.cpp.obj	5dec437513a2ab1e
 365	443	7720348616907837	controller_four.exe	10acc19c7b448a8c
 3	527	7720361956838491	CMakeFiles/controller_five.dir/Day_three/controller_five.cpp.obj	280422d3589b33b4
+28	1615	7738569071967217	CMakeFiles/class_four.dir/Day_eight/class_four.cpp.obj	ccf1b12b1624fe41
 27	751	7724441923063479	CMakeFiles/array_two.dir/Day_four/array_two.cpp.obj	cddeb011582c8f8f
 752	1271	7724441930307563	array_two.exe	9f81bfdf34050059
 19	384	7724443051950909	CMakeFiles/pointer_one.dir/Day_five/pointer_one.cpp.obj	c79aaf67d720a6be
 2	336	7724452198199627	CMakeFiles/pointer_three.dir/Day_five/pointer_three.cpp.obj	1c1e4fa82b9e7447
+1791	2884	7741925334070637	OperatorOverloading_two.exe	4a899993542993b6
 336	405	7724452201542658	pointer_three.exe	108cafb99e7766f4
 12	365	7724457801265507	CMakeFiles/pointer_four.dir/Day_five/pointer_four.cpp.obj	82bc1c1bdd20d13d
+12	1439	7736573203782832	CMakeFiles/class_three.dir/Day_eight/class_three.cpp.obj	adcce75ee8647915
 366	446	7724457804807692	pointer_four.exe	c7b00183c1656870
+93	3091	7736552340955300	CMakeFiles/class_one.dir/Day_eight/class_one.cpp.obj	4af3c8f613f3d801
 19	372	7724472724950879	CMakeFiles/pointer_array.dir/Day_five/pointer_array.cpp.obj	36c3ac37e2ca13ac
 34	566	7724563654059909	CMakeFiles/struct_one.dir/Day_six/struct_one.cpp.obj	4a214168e52550bb
 29	426	7724571015743611	CMakeFiles/struct_three.dir/Day_six/struct_three.cpp.obj	d474258d7e432af4
@@ -37,3 +41,13 @@
 33	389	7724608290459365	CMakeFiles/func_one.dir/Day_seven/func_one.cpp.obj	3de9977e08288177
 389	463	7724608294026660	func_one.exe	8952bd603b38b8b2
 36	393	7724599807105576	CMakeFiles/func_two.dir/Day_seven/func_two.cpp.obj	7eceac74460e2ce3
+9	739	7741931416459815	CMakeFiles/OperatorOverloading_four.dir/Day_nine/OperatorOverloading_four.cpp.obj	7f1ad1309b74cfec
+3092	4166	7736552370942734	class_one.exe	8f9e15f4767819a3
+7	1406	7736553144209105	CMakeFiles/class_two.dir/Day_eight/class_two.cpp.obj	e54cac65dc4d35de
+1406	1541	7736553158201787	class_two.exe	3ba4a922ffcfe4b4
+1441	2637	7736573218071313	class_three.exe	773b59a4dca1aa25
+1615	2796	7738569087833321	class_four.exe	66c5617a763ec06c
+117	1790	7741925317334429	CMakeFiles/OperatorOverloading_two.dir/Day_nine/OperatorOverloading_two.cpp.obj	fc011a67207d81d
+740	869	7741931423772292	OperatorOverloading_four.exe	36fddaabaaba7bd
+4	714	7741943354568644	CMakeFiles/class_five.dir/Day_eight/class_five.cpp.obj	536f905191f891f5
+715	861	7741943361669496	class_five.exe	46078d7abcac999a

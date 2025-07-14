@@ -832,6 +832,303 @@ build class_one.exe: CXX_EXECUTABLE_LINKER__class_one_Debug CMakeFiles/class_one
   TARGET_IMPLIB = libclass_one.dll.a
   TARGET_PDB = class_one.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target class_two
+
+
+#############################################
+# Order-only phony target for class_two
+
+build cmake_object_order_depends_target_class_two: phony || .
+
+build CMakeFiles/class_two.dir/Day_eight/class_two.cpp.obj: CXX_COMPILER__class_two_unscanned_Debug E$:/projects/cpp/Base_class/Day_eight/class_two.cpp || cmake_object_order_depends_target_class_two
+  DEP_FILE = CMakeFiles\class_two.dir\Day_eight\class_two.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\class_two.dir
+  OBJECT_FILE_DIR = CMakeFiles\class_two.dir\Day_eight
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target class_two
+
+
+#############################################
+# Link the executable class_two.exe
+
+build class_two.exe: CXX_EXECUTABLE_LINKER__class_two_Debug CMakeFiles/class_two.dir/Day_eight/class_two.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\class_two.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = class_two.exe
+  TARGET_IMPLIB = libclass_two.dll.a
+  TARGET_PDB = class_two.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target class_three
+
+
+#############################################
+# Order-only phony target for class_three
+
+build cmake_object_order_depends_target_class_three: phony || .
+
+build CMakeFiles/class_three.dir/Day_eight/class_three.cpp.obj: CXX_COMPILER__class_three_unscanned_Debug E$:/projects/cpp/Base_class/Day_eight/class_three.cpp || cmake_object_order_depends_target_class_three
+  DEP_FILE = CMakeFiles\class_three.dir\Day_eight\class_three.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\class_three.dir
+  OBJECT_FILE_DIR = CMakeFiles\class_three.dir\Day_eight
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target class_three
+
+
+#############################################
+# Link the executable class_three.exe
+
+build class_three.exe: CXX_EXECUTABLE_LINKER__class_three_Debug CMakeFiles/class_three.dir/Day_eight/class_three.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\class_three.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = class_three.exe
+  TARGET_IMPLIB = libclass_three.dll.a
+  TARGET_PDB = class_three.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target class_four
+
+
+#############################################
+# Order-only phony target for class_four
+
+build cmake_object_order_depends_target_class_four: phony || .
+
+build CMakeFiles/class_four.dir/Day_eight/class_four.cpp.obj: CXX_COMPILER__class_four_unscanned_Debug E$:/projects/cpp/Base_class/Day_eight/class_four.cpp || cmake_object_order_depends_target_class_four
+  DEP_FILE = CMakeFiles\class_four.dir\Day_eight\class_four.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\class_four.dir
+  OBJECT_FILE_DIR = CMakeFiles\class_four.dir\Day_eight
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target class_four
+
+
+#############################################
+# Link the executable class_four.exe
+
+build class_four.exe: CXX_EXECUTABLE_LINKER__class_four_Debug CMakeFiles/class_four.dir/Day_eight/class_four.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\class_four.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = class_four.exe
+  TARGET_IMPLIB = libclass_four.dll.a
+  TARGET_PDB = class_four.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target class_five
+
+
+#############################################
+# Order-only phony target for class_five
+
+build cmake_object_order_depends_target_class_five: phony || .
+
+build CMakeFiles/class_five.dir/Day_eight/class_five.cpp.obj: CXX_COMPILER__class_five_unscanned_Debug E$:/projects/cpp/Base_class/Day_eight/class_five.cpp || cmake_object_order_depends_target_class_five
+  DEP_FILE = CMakeFiles\class_five.dir\Day_eight\class_five.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\class_five.dir
+  OBJECT_FILE_DIR = CMakeFiles\class_five.dir\Day_eight
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target class_five
+
+
+#############################################
+# Link the executable class_five.exe
+
+build class_five.exe: CXX_EXECUTABLE_LINKER__class_five_Debug CMakeFiles/class_five.dir/Day_eight/class_five.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\class_five.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = class_five.exe
+  TARGET_IMPLIB = libclass_five.dll.a
+  TARGET_PDB = class_five.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target OperatorOverloading_one
+
+
+#############################################
+# Order-only phony target for OperatorOverloading_one
+
+build cmake_object_order_depends_target_OperatorOverloading_one: phony || .
+
+build CMakeFiles/OperatorOverloading_one.dir/Day_nine/OperatorOverloading_one.cpp.obj: CXX_COMPILER__OperatorOverloading_one_unscanned_Debug E$:/projects/cpp/Base_class/Day_nine/OperatorOverloading_one.cpp || cmake_object_order_depends_target_OperatorOverloading_one
+  DEP_FILE = CMakeFiles\OperatorOverloading_one.dir\Day_nine\OperatorOverloading_one.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\OperatorOverloading_one.dir
+  OBJECT_FILE_DIR = CMakeFiles\OperatorOverloading_one.dir\Day_nine
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target OperatorOverloading_one
+
+
+#############################################
+# Link the executable OperatorOverloading_one.exe
+
+build OperatorOverloading_one.exe: CXX_EXECUTABLE_LINKER__OperatorOverloading_one_Debug CMakeFiles/OperatorOverloading_one.dir/Day_nine/OperatorOverloading_one.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\OperatorOverloading_one.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = OperatorOverloading_one.exe
+  TARGET_IMPLIB = libOperatorOverloading_one.dll.a
+  TARGET_PDB = OperatorOverloading_one.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target OperatorOverloading_two
+
+
+#############################################
+# Order-only phony target for OperatorOverloading_two
+
+build cmake_object_order_depends_target_OperatorOverloading_two: phony || .
+
+build CMakeFiles/OperatorOverloading_two.dir/Day_nine/OperatorOverloading_two.cpp.obj: CXX_COMPILER__OperatorOverloading_two_unscanned_Debug E$:/projects/cpp/Base_class/Day_nine/OperatorOverloading_two.cpp || cmake_object_order_depends_target_OperatorOverloading_two
+  DEP_FILE = CMakeFiles\OperatorOverloading_two.dir\Day_nine\OperatorOverloading_two.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\OperatorOverloading_two.dir
+  OBJECT_FILE_DIR = CMakeFiles\OperatorOverloading_two.dir\Day_nine
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target OperatorOverloading_two
+
+
+#############################################
+# Link the executable OperatorOverloading_two.exe
+
+build OperatorOverloading_two.exe: CXX_EXECUTABLE_LINKER__OperatorOverloading_two_Debug CMakeFiles/OperatorOverloading_two.dir/Day_nine/OperatorOverloading_two.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\OperatorOverloading_two.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = OperatorOverloading_two.exe
+  TARGET_IMPLIB = libOperatorOverloading_two.dll.a
+  TARGET_PDB = OperatorOverloading_two.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target OperatorOverloading_three
+
+
+#############################################
+# Order-only phony target for OperatorOverloading_three
+
+build cmake_object_order_depends_target_OperatorOverloading_three: phony || .
+
+build CMakeFiles/OperatorOverloading_three.dir/Day_nine/OperatorOverloading_three.cpp.obj: CXX_COMPILER__OperatorOverloading_three_unscanned_Debug E$:/projects/cpp/Base_class/Day_nine/OperatorOverloading_three.cpp || cmake_object_order_depends_target_OperatorOverloading_three
+  DEP_FILE = CMakeFiles\OperatorOverloading_three.dir\Day_nine\OperatorOverloading_three.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\OperatorOverloading_three.dir
+  OBJECT_FILE_DIR = CMakeFiles\OperatorOverloading_three.dir\Day_nine
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target OperatorOverloading_three
+
+
+#############################################
+# Link the executable OperatorOverloading_three.exe
+
+build OperatorOverloading_three.exe: CXX_EXECUTABLE_LINKER__OperatorOverloading_three_Debug CMakeFiles/OperatorOverloading_three.dir/Day_nine/OperatorOverloading_three.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\OperatorOverloading_three.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = OperatorOverloading_three.exe
+  TARGET_IMPLIB = libOperatorOverloading_three.dll.a
+  TARGET_PDB = OperatorOverloading_three.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target OperatorOverloading_four
+
+
+#############################################
+# Order-only phony target for OperatorOverloading_four
+
+build cmake_object_order_depends_target_OperatorOverloading_four: phony || .
+
+build CMakeFiles/OperatorOverloading_four.dir/Day_nine/OperatorOverloading_four.cpp.obj: CXX_COMPILER__OperatorOverloading_four_unscanned_Debug E$:/projects/cpp/Base_class/Day_nine/OperatorOverloading_four.cpp || cmake_object_order_depends_target_OperatorOverloading_four
+  DEP_FILE = CMakeFiles\OperatorOverloading_four.dir\Day_nine\OperatorOverloading_four.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\OperatorOverloading_four.dir
+  OBJECT_FILE_DIR = CMakeFiles\OperatorOverloading_four.dir\Day_nine
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target OperatorOverloading_four
+
+
+#############################################
+# Link the executable OperatorOverloading_four.exe
+
+build OperatorOverloading_four.exe: CXX_EXECUTABLE_LINKER__OperatorOverloading_four_Debug CMakeFiles/OperatorOverloading_four.dir/Day_nine/OperatorOverloading_four.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\OperatorOverloading_four.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = OperatorOverloading_four.exe
+  TARGET_IMPLIB = libOperatorOverloading_four.dll.a
+  TARGET_PDB = OperatorOverloading_four.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target OperatorOverloading_five
+
+
+#############################################
+# Order-only phony target for OperatorOverloading_five
+
+build cmake_object_order_depends_target_OperatorOverloading_five: phony || .
+
+build CMakeFiles/OperatorOverloading_five.dir/Day_nine/OperatorOverloading_five.cpp.obj: CXX_COMPILER__OperatorOverloading_five_unscanned_Debug E$:/projects/cpp/Base_class/Day_nine/OperatorOverloading_five.cpp || cmake_object_order_depends_target_OperatorOverloading_five
+  DEP_FILE = CMakeFiles\OperatorOverloading_five.dir\Day_nine\OperatorOverloading_five.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\OperatorOverloading_five.dir
+  OBJECT_FILE_DIR = CMakeFiles\OperatorOverloading_five.dir\Day_nine
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target OperatorOverloading_five
+
+
+#############################################
+# Link the executable OperatorOverloading_five.exe
+
+build OperatorOverloading_five.exe: CXX_EXECUTABLE_LINKER__OperatorOverloading_five_Debug CMakeFiles/OperatorOverloading_five.dir/Day_nine/OperatorOverloading_five.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\OperatorOverloading_five.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = OperatorOverloading_five.exe
+  TARGET_IMPLIB = libOperatorOverloading_five.dll.a
+  TARGET_PDB = OperatorOverloading_five.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -860,13 +1157,31 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build Hello_world: phony Hello_world.exe
 
+build OperatorOverloading_five: phony OperatorOverloading_five.exe
+
+build OperatorOverloading_four: phony OperatorOverloading_four.exe
+
+build OperatorOverloading_one: phony OperatorOverloading_one.exe
+
+build OperatorOverloading_three: phony OperatorOverloading_three.exe
+
+build OperatorOverloading_two: phony OperatorOverloading_two.exe
+
 build array_one: phony array_one.exe
 
 build array_two: phony array_two.exe
 
 build cin: phony cin.exe
 
+build class_five: phony class_five.exe
+
+build class_four: phony class_four.exe
+
 build class_one: phony class_one.exe
+
+build class_three: phony class_three.exe
+
+build class_two: phony class_two.exe
 
 build constant: phony constant.exe
 
@@ -914,7 +1229,7 @@ build struct_two: phony struct_two.exe
 #############################################
 # Folder: E:/projects/cpp/Base_class/cmake-build-debug
 
-build all: phony Hello_world.exe constant.exe data_model.exe cin.exe operator.exe controller_one.exe controller_two.exe controller_three.exe controller_four.exe controller_five.exe array_one.exe array_two.exe pointer_one.exe pointer_two.exe pointer_three.exe pointer_four.exe pointer_five.exe pointer_array.exe struct_one.exe struct_two.exe struct_three.exe func_one.exe func_two.exe class_one.exe
+build all: phony Hello_world.exe constant.exe data_model.exe cin.exe operator.exe controller_one.exe controller_two.exe controller_three.exe controller_four.exe controller_five.exe array_one.exe array_two.exe pointer_one.exe pointer_two.exe pointer_three.exe pointer_four.exe pointer_five.exe pointer_array.exe struct_one.exe struct_two.exe struct_three.exe func_one.exe func_two.exe class_one.exe class_two.exe class_three.exe class_four.exe class_five.exe OperatorOverloading_one.exe OperatorOverloading_two.exe OperatorOverloading_three.exe OperatorOverloading_four.exe OperatorOverloading_five.exe
 
 # =============================================================================
 # Built-in targets

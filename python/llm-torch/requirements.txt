@@ -5,3 +5,7 @@ torchvision~=0.22.1
 mpmath~=1.3.0
 tensorboard~=2.19.0
 urllib3~=2.2.3
+tushare~=1.4.21
+pandas~=2.3.0
+modelscope~=1.27.1
+jieba~=0.42.1
