@@ -436,6 +436,138 @@ build controller_four.exe: C_EXECUTABLE_LINKER__controller_four_Debug CMakeFiles
   TARGET_IMPLIB = libcontroller_four.dll.a
   TARGET_PDB = controller_four.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target controller_five
+
+
+#############################################
+# Order-only phony target for controller_five
+
+build cmake_object_order_depends_target_controller_five: phony || .
+
+build CMakeFiles/controller_five.dir/Day_three/controller_five.c.obj: C_COMPILER__controller_five_unscanned_Debug E$:/projects/c/Base_class/Day_three/controller_five.c || cmake_object_order_depends_target_controller_five
+  DEP_FILE = CMakeFiles\controller_five.dir\Day_three\controller_five.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\controller_five.dir
+  OBJECT_FILE_DIR = CMakeFiles\controller_five.dir\Day_three
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target controller_five
+
+
+#############################################
+# Link the executable controller_five.exe
+
+build controller_five.exe: C_EXECUTABLE_LINKER__controller_five_Debug CMakeFiles/controller_five.dir/Day_three/controller_five.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\controller_five.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = controller_five.exe
+  TARGET_IMPLIB = libcontroller_five.dll.a
+  TARGET_PDB = controller_five.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target controller_six
+
+
+#############################################
+# Order-only phony target for controller_six
+
+build cmake_object_order_depends_target_controller_six: phony || .
+
+build CMakeFiles/controller_six.dir/Day_three/controller_six.c.obj: C_COMPILER__controller_six_unscanned_Debug E$:/projects/c/Base_class/Day_three/controller_six.c || cmake_object_order_depends_target_controller_six
+  DEP_FILE = CMakeFiles\controller_six.dir\Day_three\controller_six.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\controller_six.dir
+  OBJECT_FILE_DIR = CMakeFiles\controller_six.dir\Day_three
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target controller_six
+
+
+#############################################
+# Link the executable controller_six.exe
+
+build controller_six.exe: C_EXECUTABLE_LINKER__controller_six_Debug CMakeFiles/controller_six.dir/Day_three/controller_six.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\controller_six.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = controller_six.exe
+  TARGET_IMPLIB = libcontroller_six.dll.a
+  TARGET_PDB = controller_six.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target func_one
+
+
+#############################################
+# Order-only phony target for func_one
+
+build cmake_object_order_depends_target_func_one: phony || .
+
+build CMakeFiles/func_one.dir/Day_four/func_one.c.obj: C_COMPILER__func_one_unscanned_Debug E$:/projects/c/Base_class/Day_four/func_one.c || cmake_object_order_depends_target_func_one
+  DEP_FILE = CMakeFiles\func_one.dir\Day_four\func_one.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\func_one.dir
+  OBJECT_FILE_DIR = CMakeFiles\func_one.dir\Day_four
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target func_one
+
+
+#############################################
+# Link the executable func_one.exe
+
+build func_one.exe: C_EXECUTABLE_LINKER__func_one_Debug CMakeFiles/func_one.dir/Day_four/func_one.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\func_one.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = func_one.exe
+  TARGET_IMPLIB = libfunc_one.dll.a
+  TARGET_PDB = func_one.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target func_two
+
+
+#############################################
+# Order-only phony target for func_two
+
+build cmake_object_order_depends_target_func_two: phony || .
+
+build CMakeFiles/func_two.dir/Day_four/func_two.c.obj: C_COMPILER__func_two_unscanned_Debug E$:/projects/c/Base_class/Day_four/func_two.c || cmake_object_order_depends_target_func_two
+  DEP_FILE = CMakeFiles\func_two.dir\Day_four\func_two.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\func_two.dir
+  OBJECT_FILE_DIR = CMakeFiles\func_two.dir\Day_four
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target func_two
+
+
+#############################################
+# Link the executable func_two.exe
+
+build func_two.exe: C_EXECUTABLE_LINKER__func_two_Debug CMakeFiles/func_two.dir/Day_four/func_two.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\func_two.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = func_two.exe
+  TARGET_IMPLIB = libfunc_two.dll.a
+  TARGET_PDB = func_two.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -478,13 +610,21 @@ build Printf: phony Printf.exe
 
 build Scanf: phony Scanf.exe
 
+build controller_five: phony controller_five.exe
+
 build controller_four: phony controller_four.exe
 
 build controller_one: phony controller_one.exe
 
+build controller_six: phony controller_six.exe
+
 build controller_three: phony controller_three.exe
 
 build controller_two: phony controller_two.exe
+
+build func_one: phony func_one.exe
+
+build func_two: phony func_two.exe
 
 # =============================================================================
 # Folder targets.
@@ -494,7 +634,7 @@ build controller_two: phony controller_two.exe
 #############################################
 # Folder: E:/projects/c/Base_class/cmake-build-debug
 
-build all: phony Printf.exe DataType.exe DataBase.exe Scanf.exe Operators_one.exe Conversion.exe Operators_two.exe Operator_three.exe controller_one.exe controller_two.exe controller_three.exe controller_four.exe
+build all: phony Printf.exe DataType.exe DataBase.exe Scanf.exe Operators_one.exe Conversion.exe Operators_two.exe Operator_three.exe controller_one.exe controller_two.exe controller_three.exe controller_four.exe controller_five.exe controller_six.exe func_one.exe func_two.exe
 
 # =============================================================================
 # Built-in targets
