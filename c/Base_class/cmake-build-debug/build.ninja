@@ -568,6 +568,270 @@ build func_two.exe: C_EXECUTABLE_LINKER__func_two_Debug CMakeFiles/func_two.dir/
   TARGET_IMPLIB = libfunc_two.dll.a
   TARGET_PDB = func_two.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target array_one
+
+
+#############################################
+# Order-only phony target for array_one
+
+build cmake_object_order_depends_target_array_one: phony || .
+
+build CMakeFiles/array_one.dir/Day_four/array_one.c.obj: C_COMPILER__array_one_unscanned_Debug E$:/projects/c/Base_class/Day_four/array_one.c || cmake_object_order_depends_target_array_one
+  DEP_FILE = CMakeFiles\array_one.dir\Day_four\array_one.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\array_one.dir
+  OBJECT_FILE_DIR = CMakeFiles\array_one.dir\Day_four
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target array_one
+
+
+#############################################
+# Link the executable array_one.exe
+
+build array_one.exe: C_EXECUTABLE_LINKER__array_one_Debug CMakeFiles/array_one.dir/Day_four/array_one.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\array_one.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = array_one.exe
+  TARGET_IMPLIB = libarray_one.dll.a
+  TARGET_PDB = array_one.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target array_two
+
+
+#############################################
+# Order-only phony target for array_two
+
+build cmake_object_order_depends_target_array_two: phony || .
+
+build CMakeFiles/array_two.dir/Day_four/array_two.c.obj: C_COMPILER__array_two_unscanned_Debug E$:/projects/c/Base_class/Day_four/array_two.c || cmake_object_order_depends_target_array_two
+  DEP_FILE = CMakeFiles\array_two.dir\Day_four\array_two.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\array_two.dir
+  OBJECT_FILE_DIR = CMakeFiles\array_two.dir\Day_four
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target array_two
+
+
+#############################################
+# Link the executable array_two.exe
+
+build array_two.exe: C_EXECUTABLE_LINKER__array_two_Debug CMakeFiles/array_two.dir/Day_four/array_two.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\array_two.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = array_two.exe
+  TARGET_IMPLIB = libarray_two.dll.a
+  TARGET_PDB = array_two.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target array_three
+
+
+#############################################
+# Order-only phony target for array_three
+
+build cmake_object_order_depends_target_array_three: phony || .
+
+build CMakeFiles/array_three.dir/Day_four/array_three.c.obj: C_COMPILER__array_three_unscanned_Debug E$:/projects/c/Base_class/Day_four/array_three.c || cmake_object_order_depends_target_array_three
+  DEP_FILE = CMakeFiles\array_three.dir\Day_four\array_three.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\array_three.dir
+  OBJECT_FILE_DIR = CMakeFiles\array_three.dir\Day_four
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target array_three
+
+
+#############################################
+# Link the executable array_three.exe
+
+build array_three.exe: C_EXECUTABLE_LINKER__array_three_Debug CMakeFiles/array_three.dir/Day_four/array_three.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\array_three.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = array_three.exe
+  TARGET_IMPLIB = libarray_three.dll.a
+  TARGET_PDB = array_three.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target pointer_one
+
+
+#############################################
+# Order-only phony target for pointer_one
+
+build cmake_object_order_depends_target_pointer_one: phony || .
+
+build CMakeFiles/pointer_one.dir/Day_five/pointer_one.c.obj: C_COMPILER__pointer_one_unscanned_Debug E$:/projects/c/Base_class/Day_five/pointer_one.c || cmake_object_order_depends_target_pointer_one
+  DEP_FILE = CMakeFiles\pointer_one.dir\Day_five\pointer_one.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\pointer_one.dir
+  OBJECT_FILE_DIR = CMakeFiles\pointer_one.dir\Day_five
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target pointer_one
+
+
+#############################################
+# Link the executable pointer_one.exe
+
+build pointer_one.exe: C_EXECUTABLE_LINKER__pointer_one_Debug CMakeFiles/pointer_one.dir/Day_five/pointer_one.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\pointer_one.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = pointer_one.exe
+  TARGET_IMPLIB = libpointer_one.dll.a
+  TARGET_PDB = pointer_one.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target pointer_two
+
+
+#############################################
+# Order-only phony target for pointer_two
+
+build cmake_object_order_depends_target_pointer_two: phony || .
+
+build CMakeFiles/pointer_two.dir/Day_five/pointer_two.c.obj: C_COMPILER__pointer_two_unscanned_Debug E$:/projects/c/Base_class/Day_five/pointer_two.c || cmake_object_order_depends_target_pointer_two
+  DEP_FILE = CMakeFiles\pointer_two.dir\Day_five\pointer_two.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\pointer_two.dir
+  OBJECT_FILE_DIR = CMakeFiles\pointer_two.dir\Day_five
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target pointer_two
+
+
+#############################################
+# Link the executable pointer_two.exe
+
+build pointer_two.exe: C_EXECUTABLE_LINKER__pointer_two_Debug CMakeFiles/pointer_two.dir/Day_five/pointer_two.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\pointer_two.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = pointer_two.exe
+  TARGET_IMPLIB = libpointer_two.dll.a
+  TARGET_PDB = pointer_two.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target malloc
+
+
+#############################################
+# Order-only phony target for malloc
+
+build cmake_object_order_depends_target_malloc: phony || .
+
+build CMakeFiles/malloc.dir/Day_five/malloc.c.obj: C_COMPILER__malloc_unscanned_Debug E$:/projects/c/Base_class/Day_five/malloc.c || cmake_object_order_depends_target_malloc
+  DEP_FILE = CMakeFiles\malloc.dir\Day_five\malloc.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\malloc.dir
+  OBJECT_FILE_DIR = CMakeFiles\malloc.dir\Day_five
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target malloc
+
+
+#############################################
+# Link the executable malloc.exe
+
+build malloc.exe: C_EXECUTABLE_LINKER__malloc_Debug CMakeFiles/malloc.dir/Day_five/malloc.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\malloc.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = malloc.exe
+  TARGET_IMPLIB = libmalloc.dll.a
+  TARGET_PDB = malloc.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target fput
+
+
+#############################################
+# Order-only phony target for fput
+
+build cmake_object_order_depends_target_fput: phony || .
+
+build CMakeFiles/fput.dir/Day_five/fput.c.obj: C_COMPILER__fput_unscanned_Debug E$:/projects/c/Base_class/Day_five/fput.c || cmake_object_order_depends_target_fput
+  DEP_FILE = CMakeFiles\fput.dir\Day_five\fput.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\fput.dir
+  OBJECT_FILE_DIR = CMakeFiles\fput.dir\Day_five
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target fput
+
+
+#############################################
+# Link the executable fput.exe
+
+build fput.exe: C_EXECUTABLE_LINKER__fput_Debug CMakeFiles/fput.dir/Day_five/fput.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\fput.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = fput.exe
+  TARGET_IMPLIB = libfput.dll.a
+  TARGET_PDB = fput.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target fget
+
+
+#############################################
+# Order-only phony target for fget
+
+build cmake_object_order_depends_target_fget: phony || .
+
+build CMakeFiles/fget.dir/Day_five/fget.c.obj: C_COMPILER__fget_unscanned_Debug E$:/projects/c/Base_class/Day_five/fget.c || cmake_object_order_depends_target_fget
+  DEP_FILE = CMakeFiles\fget.dir\Day_five\fget.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\fget.dir
+  OBJECT_FILE_DIR = CMakeFiles\fget.dir\Day_five
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target fget
+
+
+#############################################
+# Link the executable fget.exe
+
+build fget.exe: C_EXECUTABLE_LINKER__fget_Debug CMakeFiles/fget.dir/Day_five/fget.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\fget.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = fget.exe
+  TARGET_IMPLIB = libfget.dll.a
+  TARGET_PDB = fget.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -610,6 +874,12 @@ build Printf: phony Printf.exe
 
 build Scanf: phony Scanf.exe
 
+build array_one: phony array_one.exe
+
+build array_three: phony array_three.exe
+
+build array_two: phony array_two.exe
+
 build controller_five: phony controller_five.exe
 
 build controller_four: phony controller_four.exe
@@ -622,9 +892,19 @@ build controller_three: phony controller_three.exe
 
 build controller_two: phony controller_two.exe
 
+build fget: phony fget.exe
+
+build fput: phony fput.exe
+
 build func_one: phony func_one.exe
 
 build func_two: phony func_two.exe
+
+build malloc: phony malloc.exe
+
+build pointer_one: phony pointer_one.exe
+
+build pointer_two: phony pointer_two.exe
 
 # =============================================================================
 # Folder targets.
@@ -634,7 +914,7 @@ build func_two: phony func_two.exe
 #############################################
 # Folder: E:/projects/c/Base_class/cmake-build-debug
 
-build all: phony Printf.exe DataType.exe DataBase.exe Scanf.exe Operators_one.exe Conversion.exe Operators_two.exe Operator_three.exe controller_one.exe controller_two.exe controller_three.exe controller_four.exe controller_five.exe controller_six.exe func_one.exe func_two.exe
+build all: phony Printf.exe DataType.exe DataBase.exe Scanf.exe Operators_one.exe Conversion.exe Operators_two.exe Operator_three.exe controller_one.exe controller_two.exe controller_three.exe controller_four.exe controller_five.exe controller_six.exe func_one.exe func_two.exe array_one.exe array_two.exe array_three.exe pointer_one.exe pointer_two.exe malloc.exe fput.exe fget.exe
 
 # =============================================================================
 # Built-in targets
