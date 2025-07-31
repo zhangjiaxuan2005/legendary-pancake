@@ -12,5 +12,6 @@ add_executable(Queue_one Day_three/queue_one.c)
 add_executable(Queue_two Day_three/Queue_two.c)
 add_executable(QueueList Day_three/QueueList.c)
 add_executable(Tree_one Day_four/Tree_one.c)
-
 add_executable(Tree_two Day_four/Tree_two.c)
+add_executable(Tree_three Day_four/Tree_three.c)
+add_executable(Tree_four Day_four/Tree_four.c)
