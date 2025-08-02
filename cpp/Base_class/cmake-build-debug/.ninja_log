@@ -1,5 +1,5 @@
 # ninja log v6
-4	560	7742722622521304	build.ninja	665dd37eaa28a899
+4	560	7757605786289112	build.ninja	665dd37eaa28a899
 394	470	7724599810682356	func_two.exe	4f6e8a311303874f
 5	679	7720204863016555	CMakeFiles/constant.dir/Day_one/constant.cpp.obj	ce7b39f7386b6815
 50	698	7720204959971909	CMakeFiles/Hello_world.dir/Day_one/Hello_world.cpp.obj	d4640fa998860747
@@ -63,3 +63,5 @@
 765	916	7742078688257092	fstream_three.exe	6d8615e38f216df2
 9	775	7742079192153175	CMakeFiles/fstream_four.dir/Day_tan/fstream_four.cpp.obj	b432796d8355e8ca
 7	754	7742717104074400	CMakeFiles/template_one.dir/Day_eleven/template_one.cpp.obj	f28c9e8b5e412a13
+4	635	7757606822608675	CMakeFiles/main.dir/main.cpp.obj	d374873ab064ace
+636	748	7757606828926634	main.exe	993244a8e6bf338d

@@ -54,7 +54,8 @@
 						36,
 						37,
 						38,
-						39
+						39,
+						40
 					]
 				}
 			],
@@ -108,7 +109,8 @@
 						36,
 						37,
 						38,
-						39
+						39,
+						40
 					]
 				}
 			],
@@ -301,6 +303,13 @@
 					"id" : "func_two::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-func_two-Debug-f508839643c227553be2.json",
 					"name" : "func_two",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main-Debug-fe61588ed1b1c2e65c30.json",
+					"name" : "main",
 					"projectIndex" : 0
 				},
 				{
