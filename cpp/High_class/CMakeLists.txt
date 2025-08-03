@@ -7,3 +7,6 @@ add_executable(Vector STL/Vector.cpp)
 add_executable(List STL/List.cpp)
 add_executable(Set STL/Set.cpp)
 add_executable(Map STL/Map.cpp)
+add_executable(twoSum LeetCode/twoSum.cpp)
+
+add_executable(moveZeroes LeetCode/moveZeroes.cpp)

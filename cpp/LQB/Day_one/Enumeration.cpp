@@ -1,6 +1,6 @@
 //
 // Created by 17246 on 2025/8/2.
-// QJ 191
+// QJ.191
 //
 
 #include <iostream>
