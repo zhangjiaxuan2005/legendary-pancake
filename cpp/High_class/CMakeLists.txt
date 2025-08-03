@@ -10,3 +10,4 @@ add_executable(Map STL/Map.cpp)
 add_executable(twoSum LeetCode/twoSum.cpp)
 
 add_executable(moveZeroes LeetCode/moveZeroes.cpp)
+add_executable(getIntersectionNode LeetCode/getIntersectionNode.cpp)

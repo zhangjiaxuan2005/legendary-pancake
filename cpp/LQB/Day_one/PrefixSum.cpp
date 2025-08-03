@@ -22,7 +22,7 @@ int main()
         cin >> a[i];
         for (int j = 1; j <= 5; j++)
         {
-            b[i][j] = b[i - 1][j] + pow(a[i], j);
+            b[i][j] = b[i - 1][j] + static_cast<long long>(pow(a[i], j));
         }
     }
 

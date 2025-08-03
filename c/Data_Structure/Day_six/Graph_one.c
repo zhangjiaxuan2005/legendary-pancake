@@ -2,9 +2,10 @@
 // Created by 17246 on 2025/8/1.
 //
 
-#define MaxVertex 5
 #include <stdio.h>
 #include <stdlib.h>
+
+#define MaxVertex 5
 
 typedef struct MatrixGraph
 {

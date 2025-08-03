@@ -4,59 +4,77 @@
 //
 
 #include <iostream>
-#include <vector>
+#include <memory>
+#include <unordered_set>
+
 using namespace std;
 
-struct ListNode {
+struct ListNode
+{
     int val;
-    ListNode *next;
-    ListNode(int x) : val(x), next(nullptr) {}
+    ListNode* next;
+
+    explicit ListNode(int x) : val(x), next(nullptr)
+    {
+    }
 };
 
-ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
-    if (headA == nullptr || headB == nullptr) {
+ListNode* getIntersectionNode(ListNode* headA, ListNode* headB)
+{
+    if (headA == nullptr || headB == nullptr)
+    {
         return nullptr;
     }
-    ListNode *pA = headA;
-    ListNode *pB = headB;
-    while (pA != pB) {
+    ListNode* pA = headA;
+    ListNode* pB = headB;
+    while (pA != pB)
+    {
         pA = pA == nullptr ? headB : pA->next;
         pB = pB == nullptr ? headA : pB->next;
     }
     return pA;
 }
 
+ListNode* getIntersectionNode2(ListNode* headA, ListNode* headB)
+{
+    unordered_set<ListNode *> visited;
+    ListNode *temp = headA;
+    while (temp != nullptr) {
+        visited.insert(temp);
+        temp = temp->next;
+    }
+    temp = headB;
+    while (temp != nullptr) {
+        if (visited.contains(temp)) {
+            return temp;
+        }
+        temp = temp->next;
+    }
+    return nullptr;
+
+}
+
+
 int main()
 {
-    vector<int> listA={4,1,8,4,5};
-    vector<int> listB={5,6,1,8,4,5};
-    ListNode *headA = new ListNode(listA[0]);
-    ListNode *headB = new ListNode(listB[0]);
-    ListNode *pA = headA;
-    ListNode *pB = headB;
-    for (int i = 1; i < listA.size(); i++) {
-        pA->next = new ListNode(listA[i]);
-        pA = pA->next;
+    unique_ptr<ListNode> headA(new ListNode(4));
+    headA->next = new ListNode(1);
+    headA->next->next = new ListNode(8);
+    headA->next->next->next = new ListNode(4);
+    headA->next->next->next->next = new ListNode(5);
+
+    unique_ptr<ListNode> headB(new ListNode(5));
+    headB->next = new ListNode(6);
+    headB->next->next = new ListNode(1);
+    headB->next->next->next = headA->next->next;
+
+    ListNode* intersection_node = getIntersectionNode(headA.get(), headB.get());
+    if (intersection_node)
+    {
+        cout << intersection_node->val << endl;
     }
-    for (int i = 1; i < listB.size(); i++) {
-        pB->next = new ListNode(listB[i]);
-        pB = pB->next;
-    }
-    ListNode *intersectionNode = getIntersectionNode(headA, headB);
-    if (intersectionNode) {
-        cout << intersectionNode->val << endl;
-    } else
+    else
     {
         cout << "No intersection" << endl;
-    }
-    while (headA) {
-        ListNode *temp = headA;
-        headA = headA->next;
-        delete temp;
-    }
-    while (headB) {
-        ListNode *temp = headB;
-        headB = headB->next;
-        delete temp;
     }
 }
