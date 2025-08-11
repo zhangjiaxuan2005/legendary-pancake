@@ -9,13 +9,8 @@ add_executable(Vector STL/Vector.cpp)
 add_executable(List STL/List.cpp)
 add_executable(Set STL/Set.cpp)
 add_executable(Map STL/Map.cpp)
-add_executable(twoSum LeetCode/twoSum.cpp)
-
-add_executable(moveZeroes LeetCode/moveZeroes.cpp)
-add_executable(getIntersectionNode LeetCode/getIntersectionNode.cpp)
 
 add_executable(namespace AdvanceFeature/namespace.cpp)
 add_executable(MoveSemantics AdvanceFeature/MoveSemantics.cpp)
 add_executable(RAII AdvanceFeature/RAII.cpp)
-add_executable(reverseList LeetCode/reverseList.cpp)
 add_executable(Lambda AdvanceFeature/Lambda.cpp)
